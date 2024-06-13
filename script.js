@@ -42,7 +42,7 @@ function SongDivCreate(song, songsContainer, songInfo) {
     <a href="#" class="text-dec-n hov-w color-g font-family-ss font-semi-bold flex gap-me transition">
       <img src="music.svg" alt="music icon" class="invert" />
       ${song.name}
-      <img src="play.svg" alt="play icon" class="invert" />
+      <img src="Play.svg" alt="play icon" class="invert" />
     </a>
   `;
   songsContainer.appendChild(container);
