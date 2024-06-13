@@ -95,7 +95,7 @@ function addEventListeners(Songs) {
     } else {
       console.log("working");
       audio.pause();
-      playButton.src = "play.svg";
+      playButton.src = "Play.svg";
     }
   });
 
