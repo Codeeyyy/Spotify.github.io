@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="x-icon" href="favicon.ico" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="utility.css" />
+  </head>
+
+  <body class="bg-black">
+    <div class="main height width flex">
+      <div class="left height flex flex-d-c gap-l ">
+        <div class="home p-me">
+          <ul class="flex flex-d-c gap-me position-r">
+            <li class="list-s-n">
+              <a href="#"><img src="logo.svg" alt="logo" class="invert" /></a>
+            </li>
+            <li class="position-a close"><a href="#"><img src="close.svg" alt="" class="invert"></a></li>
+            <li class="list-s-n">
+              <a
+                href="#"
+                class="text-dec-n hov-w color-g font-family-ss font-semi-bold flex gap-me align-c transition"
+                ><img src="home.svg" alt="home" class="invert" /> Home</a
+              >
+            </li>
+            <li class="list-s-n">
+              <a
+                href="#"
+                class="text-dec-n hov-w color-g font-family-ss font-semi-bold flex gap-me align-c transition"
+                ><img src="search.svg" alt="search" class="invert" /> Search</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="library p-me border-r position-r">
+          <ul class="flex gap-l justify-sb">
+            <li class="list-s-n">
+              <a
+                href="#"
+                class="text-dec-n hov-w color-g font-family-ss font-semi-bold flex gap-me align-c transition"
+                ><img
+                  src="playlist.svg"
+                  alt="home"
+                  class="invert"
+                  draggable="true"
+                />
+                Your Library
+              </a>
+            </li>
+            <li class="list-s-n">
+              <a
+                href="#"
+                class="text-dec-n hov color-w font-family-ss font-semi-bold flex gap-me align-c"
+                ><img src="Plus.svg" alt="home" class="invert"
+              /></a>
+            </li>
+          </ul>
+
+          <div class="songs f-width flex flex-d-c gap-l"></div>
+
+          <footer class="grid position-a">
+            <div>
+              <a
+                href="https://www.spotify.com/in-en/legal/"
+                class="text-dec-n color-w font-family-ss font-s-el"
+              >
+                <span>Legal</span>
+              </a>
+            </div>
+            <div class="safetyandprivacy">
+              <a
+                href="https://www.spotify.com/in-en/safetyandprivacy/"
+                class="text-dec-n color-w font-family-ss font-s-el"
+              >
+                <span>Safety & Privacy Center</span>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                class="text-dec-n color-w font-family-ss font-s-el"
+              >
+                <span>Privacy Policy</span>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                class="text-dec-n color-w font-family-ss font-s-el"
+              >
+                <span>Cookies</span>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                class="text-dec-n color-w font-family-ss font-s-el"
+              >
+                <span>About Ads</span>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.spotify.com/in-en/accessibility/"
+                class="text-dec-n color-w font-family-ss font-s-el"
+              >
+                <span>Accessibility</span>
+              </a>
+            </div>
+          </footer>
+          <button class="lang position-a bg-none flex justify-c align-c">
+            <a
+              href="#"
+              class="flex color-w font-s-ml font-semi-bold text-dec-n flex align-c"
+              ><img src="globe.svg" alt="" class="invert" /> English</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="right height flex flex-d-c align-c border-r justify-sb">
+        <header class="flex justify-sb align-c p-l f-width">
+          <div class="nav flex gap-mo">
+            <img src="Hamburger.svg" alt="" class="hamburger invert">
+            <div class="shadow flex align-c justify-c">
+              <img src="left.svg" alt="" class="invert" />
+            </div>
+            <div class="shadow flex align-c justify-c">
+              <img src="right.svg" alt="" class="invert" />
+            </div>
+          </div>
+          <div class="buttons">
+            <button
+              class="Sign hov-w cursor-p font-semi-bold font-family-ss font-s-ml bg-none border-n"
+            >
+              Sign up
+            </button>
+            <button
+              class="Log cursor-p font-semi-bold font-family-ss font-s-ml"
+            >
+              Log in
+            </button>
+          </div>
+        </header>
+
+        <div class="spotifyPlaylist p-l f-width">
+          <h1 class="font-family-ss color-w">Spotify playlist</h1>
+          <div
+            class="cardContainer flex gap-me f-height f-width"
+            style="flex-wrap: wrap"
+          >
+            <div
+              class="card card1 transition border-n color-w font-family-ss border-r position-r"
+              style="padding: 20px 10px; margin-top: 20px"
+            >
+              <img
+                src="https://spotify.freewebhostmost.com/songs/cs/cover.jpg"
+                alt=""
+                class="c-img f-width transition"
+              />
+              <div
+                class="Play transition circle-r flex justify-c align-c position-a"
+              >
+                <a href="#" class="flex justify-c align-c"
+                  ><img src="Play.svg" alt=""
+                /></a>
+              </div>
+              <h2>Indian Hits!</h2>
+              <p class="font-s-ml">
+                Copy right songs
+              </p>
+            </div>
+            <div
+              class="card card2 transition border-n color-w font-family-ss border-r position-r"
+              style="padding: 20px 10px; margin-top: 20px"
+            >
+              <img
+                src="https://spotify.freewebhostmost.com/songs/cs/cover.jpg"
+                alt=""
+                class="c-img f-width transition"
+              />
+              <div
+                class="Play transition circle-r flex justify-c align-c position-a"
+              >
+                <a href="#" class="flex justify-c align-c"
+                  ><img src="Play.svg" alt=""
+                /></a>
+              </div>
+              <h2>Happy Hits!</h2>
+              <p class="font-s-ml">
+                Hits to boost your mood and fill you with happiness
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="playlist border-r margin-auto position-a bottom m-l flex align-c justify-sb flex-d-c p-l"
+
+        >
+          <div class="abovebar f-width flex justify-sb">
+            <div
+              class="songInfo color-w font-family-ss font-s-el "
+              style="height: 100%; width:300px;"
+            ></div>
+            <div class="PlaylistControllers flex gap-mo">
+              <img src="Backward.svg" alt="" class="invert cursor-p  previous" />
+              <img src="Play.svg" alt="" class="invert cursor-p play" />
+              <img src="forward.svg" alt="" class="invert cursor-p next" />
+            </div>
+
+            <div style="width:400px;" class="flex justify-c gap-mo"> 
+              <div
+              class="time color-w font-family-ss font-s-el flex justify-c align-c "
+              style="height: 100%;"
+            >0:00/0:00</div>
+            <div class="volume flex align-c gap-l">
+              <img src="volume.svg" alt="" class="invert cursor-p">
+              <div class="range">
+                <input type="range" name="vol" id="volume">
+              </div>
+            </div>
+
+            </div>
+  
+            
+          </div>
+           
+          <div class="seekbar f-width position-r flex align-c cursor-p">
+            <div class="circle position-a"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

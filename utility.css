@@ -1,0 +1,264 @@
+.r-border{
+    border: 2px solid red;
+}
+.border-n{
+    border:none;
+}
+
+.flex{
+    display: flex;
+}
+.flex-d-c{
+flex-direction: column;
+}
+.flex-d-r{
+flex-direction: row;
+}
+.justify-c{
+    justify-content: center;
+}
+.justify-sb{
+    justify-content: space-between;
+}
+.justify-a{
+    justify-content: space-around;
+}
+.align-c{
+    align-items: center;
+}
+.color-w{
+    color: white;
+}
+.color-b{
+    color: black;
+}
+.invert{
+ filter: invert(1);
+}
+.margin-auto{
+    margin: auto;
+}
+.height{
+    height:100vh ;
+}
+.width{
+    width: 100vw;
+}
+
+.list-s-n{
+    list-style: none;
+}
+.text-dec-n{
+    text-decoration: none;
+}
+.two-margin{
+    margin: 2px;
+}
+
+.grid{
+    display: grid;
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.row{
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.column{
+     grid-template-columns: 1fr 1fr 1fr;
+}
+ 
+.circle-r{
+    border-radius: 50%;
+}
+
+/* Text alignment */
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+
+.f-width{
+    width: 100%;
+}
+
+.f-height{
+    height: 100%;
+}
+
+/* Font weight */
+.font-bold {
+    font-weight: bold;
+}
+.font-normal {
+    font-weight: normal;
+}
+
+.font-semi-bold{
+    font-weight: 700;
+}
+
+/* Font style */
+.font-italic {
+    font-style: italic;
+}
+
+/* Text transform */
+.text-uppercase {
+    text-transform: uppercase;
+}
+.text-lowercase {
+    text-transform: lowercase;
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+/* Position */
+.position-r {
+    position: relative;
+}
+.position-a {
+    position: absolute;
+}
+.position-f {
+    position: fixed;
+}
+
+.top{
+    top: 0px;
+}
+
+.bottom{
+    bottom: 0px;
+}
+
+/* Overflow */
+.overflow-a {
+    overflow: auto;
+}
+.overflow-h {
+    overflow: hidden;
+}
+
+/* Cursor */
+.cursor-p {
+    cursor: pointer;
+}
+
+/* Display */
+.d-block {
+    display: block;
+}
+.d-inline {
+    display: inline;
+}
+.d-inline-block {
+    display: inline-block;
+}
+.d-none {
+    display: none;
+}
+
+/* Background color */
+.bg-black {
+    background: black;
+}
+.bg-white {
+    background: white;
+}
+.bg-none{
+    background: none;
+}
+/* gap */
+
+.gap-l{
+    gap: 10px;
+}
+.gap-me{
+    gap: 20px;
+}
+.gap-mo{
+    gap: 30px;
+}
+/* font  */
+.font-family-ss{
+    font-family: sans-serif;
+}
+
+.font-s-l{
+ font-size: 25px;
+}
+.font-s-me{
+ font-size: 35px;
+}
+.font-s-mo{
+ font-size: 45px;
+}
+.font-s-ml{
+ font-size: 15px;
+}
+.font-s-el{
+    font-size: 11px;
+}
+
+.list-style-n{
+    list-style: none;
+}
+
+.border-r{
+    border-radius: 7px;
+}
+
+.m-2px{
+    margin: 2px;
+}
+
+.p-l{
+    padding: 10px;
+}
+.p-me{
+    padding: 20px;
+}
+.p-mo{
+    padding: 30px;
+}
+
+.p-emo{
+    padding: 40px;
+}
+
+.m-l{
+    margin: 10px;
+}
+.m-me{
+    margin: 20px;
+}
+.m-mo{
+    margin: 30px;
+}
+
+.hov:hover{
+    text-decoration: underline;
+}
+
+.hov-w:hover{
+    color: white;
+}
+
+.color-g{
+    color: grey;
+}
+
+.transition{
+    transition:all 0.15s ease-in;
+}
+
+
