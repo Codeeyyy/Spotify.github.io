@@ -305,3 +305,7 @@ scrollbar {
     padding-left: 0 !important;
    }
 }
+
+.spotifyPlaylist{
+    overflow-y: auto;
+}
